@@ -2,6 +2,9 @@ import { defineConfig } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  
+  base: '/Vet-San-Marcos-React/',
+  
   plugins: [react()],
 
   test: {
